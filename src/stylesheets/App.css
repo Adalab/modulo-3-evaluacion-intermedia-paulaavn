@@ -1,0 +1,40 @@
+.App_div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+.pokemon_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemon_card {
+  box-sizing: border-box;
+  height: 260px;
+  width: 150px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  background-color: lightgray;
+  margin: 20px;
+}
+
+.pokemon_image {
+  width: 150px;
+}
+.p_name {
+  text-transform: capitalize;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+}
+.type_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
